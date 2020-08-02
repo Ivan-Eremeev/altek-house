@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+	<title>Altek House - Проекты</title>
+	<link rel="stylesheet" href="css/style.css">
+<body>
+	
+	//= html_connect/header.html
+	
+	<div class="content-proj">
+		<div class="wrapper">
+
+			<!-- TABS-PROJECT BEGIN -->
+			<div id="tabs-proj" class="tabs-proj">
+				<ul class="tabs-proj_list">
+					<li class="tabs-proj_item active"><a href=" http://test.storfox.ru/projects.html" class="tabs-proj_link">Каркасные дома</a></li>
+					<li class="tabs-proj_item"><a href=" http://test.storfox.ru/projects.html" class="tabs-proj_link">Дома из бруса</a></li>
+					<li class="tabs-proj_item"><a href=" http://test.storfox.ru/projects.html" class="tabs-proj_link">Дома из бревна</a></li>
+					<li class="tabs-proj_item"><a href=" http://test.storfox.ru/projects.html" class="tabs-proj_link">Дома из блоков</a></li>
+					<li class="tabs-proj_item"><a href=" http://test.storfox.ru/projects.html" class="tabs-proj_link">Кирпичные дома</a></li>
+				</ul>
+			</div>
+			<!-- TABS-ROJECT END -->
+			
+			<!-- PROJ-MAIN-SIDEBAR BEGIN -->
+			<div class="proj-main-sidebar">
+				<div class="row">
+					<div class="proj-main-sidebar_col proj-main-sidebar_col--1">
+						<aside class="sidebar-proj">
+							<form action="#">
+								<div class="sidebar-proj_title">Цена руб</div>
+								<div>
+									<div id="range-1" class="sidebar-proj_range"></div>
+								</div>
+								<div class="sidebar-proj_line clearfix">
+									<div class="sidebar-proj_cont">
+										<label for="price1" class="sidebar-proj_label">от</label>
+										<input id="price1" type="text" class="sidebar-proj_input" value="100000">
+									</div>
+									<div class="sidebar-proj_cont">
+										<label for="price2" class="sidebar-proj_label">до</label>
+										<input id="price2" type="text" class="sidebar-proj_input" value="10000000">
+									</div>
+								</div>
+								<div class="sidebar-proj_title">Площадь, м<sup>2</sup></div>
+								<div>
+									<div id="range-2" class="sidebar-proj_range">
+								</div>
+								<div class="sidebar-proj_line clearfix">
+									<div class="sidebar-proj_cont">
+										<label for="area1" class="sidebar-proj_label">от</label>
+										<input id="area1" type="text" class="sidebar-proj_input" value="0">
+									</div>
+									<div class="sidebar-proj_cont">
+										<label for="area2" class="sidebar-proj_label">до</label>
+										<input id="area2" type="text" class="sidebar-proj_input" value="1000">
+									</div>
+								</div>
+								<div class="material">
+									<div class="sidebar-proj_title">Материал дома</div>
+									<div class="material_line">
+										<input id="material-1" type="radio" class="material_radio" name="material">
+										<label for="material-1" class="material_label"></label>
+										<label for="material-1" class="material_text">Каркасные дома</label>
+									</div>
+									<div class="material_line">
+										<input id="material-2" type="radio" class="material_radio" name="material">
+										<label for="material-2" class="material_label"></label>
+										<label for="material-2" class="material_text">Дома из бруса</label>
+									</div>
+									<div class="material_line">
+										<input id="material-3" type="radio" class="material_radio" name="material">
+										<label for="material-3" class="material_label"></label>
+										<label for="material-3" class="material_text">Дома из бревна</label>
+									</div>
+									<div class="material_line">
+										<input id="material-4" type="radio" class="material_radio" name="material">
+										<label for="material-4" class="material_label"></label>
+										<label for="material-4" class="material_text">Дома из блоков</label>
+									</div>
+									<div class="material_line">
+										<input id="material-5" type="radio" class="material_radio" name="material">
+										<label for="material-5" class="material_label"></label>
+										<label for="material-5" class="material_text">Кирпичные дома</label>
+									</div>
+								</div>
+								<div class="floors">
+									<div class="sidebar-proj_title">Этажность</div>
+									<div class="floors_line">
+										<input type="checkbox" id="floors-1" class="floors_checkbox">
+										<label for="floors-1" class="floors_label"></label>
+										<label for="floors-1" class="floors_text">1 этаж</label>
+									</div>
+									<div class="floors_line">
+										<input type="checkbox" id="floors-2" class="floors_checkbox">
+										<label for="floors-2" class="floors_label"></label>
+										<label for="floors-2" class="floors_text">2 этажа</label>
+									</div>
+									<div class="floors_line">
+										<input type="checkbox" id="floors-3" class="floors_checkbox">
+										<label for="floors-3" class="floors_label"></label>
+										<label for="floors-3" class="floors_text">3 этажа</label>
+									</div>
+								</div>
+								<div class="floors">
+									<div class="sidebar-proj_title">Тип объекта</div>
+									<div class="floors_line">
+										<input type="checkbox" id="type-obj-1" class="floors_checkbox">
+										<label for="type-obj-1" class="floors_label"></label>
+										<label for="type-obj-1" class="floors_text">Дома</label>
+									</div>
+									<div class="floors_line">
+										<input type="checkbox" id="type-obj-2" class="floors_checkbox">
+										<label for="type-obj-2" class="floors_label"></label>
+										<label for="type-obj-2" class="floors_text">Бани</label>
+									</div>
+									<div class="floors_line">
+										<input type="checkbox" id="type-obj-3" class="floors_checkbox">
+										<label for="type-obj-3" class="floors_label"></label>
+										<label for="type-obj-3" class="floors_text">Беседки</label>
+									</div>
+								</div>
+							</form>
+							<a href="javascript:void(0)" class="all-projects">ПОКАЗАТЬ ПРОЕКТЫ</a>
+							<a href="javascript:void(0)" class="reset-form">Сбросить фильтр</a>
+						</aside>
+					</div>
+					<div class="proj-main-sidebar_col proj-main-sidebar_col--2">
+						<main class="main-proj">
+							<h1 class="title">ПРОЕКТЫ ЦЕНЫ ДОМОВ</h1>
+							<p class="main-proj_big">СТРОИТЕЛЬСТВО ДОМОВ В ЯРОСЛАВЛЕ ПРОЕКТЫ И ЦЕНЫ</p>
+							<p class="main-proj_text">Данный раздел позволит вам ознакомится с основными услугами предоставляемыми нашей компанией, а так же получить подобную информацю о ценах на ремонтные и отделочные работы. Данный раздел позволит вам ознакомится с основными услугами предоставляемыми </p>
+							<div class="main-proj_counter">Всего: <span class="main-proj_counter-span">100 проектов.</span></div>
+							<div class="main-proj_sort">
+								<div class="main-proj_sort-cont">Показывать по: 
+									<select name="#" id="#" class="main-proj_select">
+										<option value="#">1 шт.</option>
+										<option value="#">2 шт.</option>
+										<option value="#">3 шт.</option>
+										<option value="#">4 шт.</option>
+										<option value="#">5 шт.</option>
+										<option value="#">6 шт.</option>
+										<option value="#">7 шт.</option>
+										<option value="#">8 шт.</option>
+										<option value="#">9 шт.</option>
+										<option value="#">10 шт.</option>
+									</select>
+								</div>
+								<div class="main-proj_sort-cont">Сортировать: 
+									<select name="#" id="#" class="main-proj_select">
+										<option value="#">возрастание цены</option>
+										<option value="#">убывание цены</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="projects-group row">
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-3.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-4.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-5.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-6.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<span class="house-card_text">Сделаем дом по Вашему проекту, или спроектируем дом под Вас</span>
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-7.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-8.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-9.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<img src="img/house-10.jpg" alt="house" class="house-card_img">
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+								<div class="main-proj_col">
+									<div class="house-card">
+										<h2 class="house-card_title">2-ЭТАЖНЫЙ ДОМ “АВРОРА”</h2>
+										<a href="product.html" class="house-card_img-cont">
+											<span class="house-card_text">Сделаем дом по Вашему проекту, или спроектируем дом под Вас</span>
+										</a >
+										<div class="house-card_description">156 кв.м. (8x9)<span class="house-card_description-span">каркасный</span></div>
+										<div class="house-card_price">Цена от: <span class="house-card_price-span">20 000</span> руб</div>
+										<a href="product.html" class="house-card_link">ПОДРОБНЕЕ</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="numbers-pages">
+								<ul class="numbers-pages_list">
+									<li class="numbers-pages_item"><a href="javascript:void(0)" class="numbers-pages_link active">1</a></li>
+									<li class="numbers-pages_item"><a href="javascript:void(0)" class="numbers-pages_link">2</a></li>
+									<li class="numbers-pages_item"><a href="javascript:void(0)" class="numbers-pages_link">3</a></li>
+									<li class="numbers-pages_item"><a href="javascript:void(0)" class="numbers-pages_link">...</a></li>
+									<li class="numbers-pages_item"><a href="javascript:void(0)" class="numbers-pages_link">12</a></li>
+								</ul>
+							</div>
+						</main>
+					</div>
+				</div>
+			</div>
+			<!-- PROJ-MAIN-SIDEBAR END -->
+
+		</div>
+	</div>
+
+	//= html_connect/footer.html
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
